@@ -1,0 +1,13 @@
+/* components/Header.module.css */
+.header {
+    background-color: #0a2540;
+    padding: 16px 0;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  

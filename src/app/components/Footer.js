@@ -1,9 +1,7 @@
-
 export default function Footer() {
-    return (
-      <footer style={{ background: '#eee', textAlign: 'center', padding: '1rem' }}>
-        <p>&copy; 2025 Appscrip Assignment</p>
-      </footer>
-    );
-  }
-  
+  return (
+    <footer>
+      <p>&copy; {new Date().getFullYear()} Appscrip. All rights reserved.</p>
+    </footer>
+  );
+}

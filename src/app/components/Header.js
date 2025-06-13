@@ -1,9 +1,8 @@
-// src/components/Header.js
+
 export default function Header() {
-    return (
-      <header style={{ background: '#222', color: '#fff', padding: '1rem' }}>
-        <h1>Appscrip Assignment</h1>
-      </header>
-    );
-  }
-  
+  return (
+    <header>
+      <h1>Appscrip Store</h1>
+    </header>
+  );
+}
